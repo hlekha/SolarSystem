@@ -11,4 +11,4 @@ civilizations
 
 ## The Verlet Algorithm
 
-In this project, I implemented the Verlet integration, which is a numerical method famously used to integrate Newton's equations of motions. Since we know the inital conditions of the system, which is the initial velocity, which equals \dot{x}(t_0), and x_0, which is attained from setting the position function at t_0. can set the average distance from the Sun as x_0 (gathered from NASA.gov), we can utilze the basic Størmer-Verlet algorithm, which suits our second-order differential equation of \ddot{x}(t) = A(x(t))
+In this project, I implemented the Verlet integration, which is a numerical method famously used to integrate Newton's equations of motions. We know the initial conditions of the system - the initial velocity, which equals \dot{x}(t_0), and the initial position, which is attained from setting the position function at t_0. Since we have the second-order differential equation relating position, and acceleration - \ddot{x}(t) = A(x(t)) - we are able to utilze the basic Størmer-Verlet algorithm,  
