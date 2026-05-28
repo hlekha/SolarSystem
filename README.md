@@ -7,3 +7,8 @@ If you've had the luxury of looking up into the sky at night, the same curiousit
 Curiousity about the sparkling dots we call stars, about the circles that luminate our world through
 the day and night. This collective thought has been discovered to date back to since the first
 civilizations 
+
+
+## The Verlet Algorithm
+
+In this project, I implemented the Verlet integration, which is a numerical method famously used to integrate Newton's equations of motions. Since we know the inital conditions of the system, which is the initial velocity, which equals \dot{x}(t_0), and x_0, which is attained from setting the position function at t_0. can set the average distance from the Sun as x_0 (gathered from NASA.gov), we can utilze the basic Størmer-Verlet algorithm, which suits our second-order differential equation of \ddot{x}(t) = A(x(t))
