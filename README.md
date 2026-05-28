@@ -1,4 +1,4 @@
-# SolarSystem
+# Solar System
 A simple visualization of the solar system.
 
 ## A Catchup on History
