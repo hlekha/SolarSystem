@@ -26,7 +26,7 @@ From this we were gifted Kepler's Laws:
 2. Planets mover faster the closer they are to the sun and slow the further away they are leading to the planets covering equal areas in equal times.
 3. This leads to an orbital period relationship of $T^2 \propto a^3$
 
-Finally, after the world accepted this truth, Newton quicly followed with his major breakthrough of astronomy, unifying the gravitation constant of Earth, the Moon's motion, and planetary orbits with the theory of gravity.
+Finally, after the world accepted this truth, Newton quickly followed with his major breakthrough of astronomy, unifying the gravitation constant of Earth, the Moon's motion, and planetary orbits with the theory of gravity.
 
 
 ## Newton's Law of Universal Gravitation
