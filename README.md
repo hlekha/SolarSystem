@@ -43,7 +43,8 @@ We then relate this to Newton's secoond law to solve for acceleration:
 <p align="center">
   $$a = \frac{-GM}{r^2} \hat {r}$$
 </p>
-Note that the smaller mass cancels out, which complies with the concept, of the bigger mass attracts the smaller mass.
+Note that the smaller mass cancels out, indicating that the resulting gravitational acceleration is independent of its mass. This is consistent with the underlying concept of the larger mass always attracts the smaller mass.
+
 ## The Verlet Algorithm
 
 In this project, I implemented the Verlet integration, which is a numerical method famously used to integrate Newton's equations of motions. With initial conditions, and a pair of differential equations which updates We know the initial conditions of the system - the initial velocity, which equals $\dot{x}(t_0)$, and the initial position, which is attained from setting the position function at $t_0$. Since we have the second-order differential equation relating position, and acceleration - $\ddot{x}(t) = A(x(t))$ - we are able to utilze the basic Størmer-Verlet algorithm. This algorithm allows us to find a numerical solution for $x_n$ by setting the function of x at $t_n$ for $t_n = t_0 + n \Delta t$ with a discrete time step. 
