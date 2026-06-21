@@ -1,5 +1,5 @@
 # Solar System
-A simple visualization of the solar system. Using physics concepts and calculatations I derived on my own, a few Python libraries, a Verlet Algorithm, and data from NASA.gov, I was able to accurately demonstrate Newton's law of universal gravitation, and display the orbits of all celestial bodies in our solar system.
+A simple visualization of the solar system on the 2D plane. Using physics concepts and calculatations I derived on my own, a few Python libraries, a Verlet Algorithm, and data from NASA.gov, I was able to accurately demonstrate Newton's law of universal gravitation, and display the orbits of all celestial bodies in our solar system.
 
 ## A Catchup on History
 
@@ -35,11 +35,15 @@ Famously centralized around the equation, $F = G \frac{m_1 m_2 }{r^2}$, Newton r
 
 111 years later in 1797-1798, Henry Cavendish was able to measure the magnitude of gravitational attraction between two masses by using a torsion wire and calculating how much the wire twisted against its resistance. This data lead to the gravitational constant, G, the proportionality constant Newton was missing.
 
-In the context of our problem, since force is a vector with both magnitude and direction, and because the force experienced on planets is attractive, the force is negative, as well as multipled by the unit vector of radius. This leads us to:
+In the context of our problem, since force is a vector with both magnitude and direction, and because the force experienced on planets is attractive, the force is negative, as well as multiplied by the unit vector of radius. This leads us to:
 <p align="center">
-  $$ \vec{F} = \frac {GMm}{r^2} \hat{r}$$
+  $$\vec{F} = \frac {GMm}{r^2} \hat {r}$$
 </p>
-
+We then relate this to Newton's secoond law to solve for acceleration:
+<p align="center">
+  $$a = \frac{-GM}{r^2} \hat {r}$$
+</p>
+Note that the smaller mass cancels out, which complies with the concept, of the bigger mass attracts the smaller mass.
 ## The Verlet Algorithm
 
 In this project, I implemented the Verlet integration, which is a numerical method famously used to integrate Newton's equations of motions. With initial conditions, and a pair of differential equations which updates We know the initial conditions of the system - the initial velocity, which equals $\dot{x}(t_0)$, and the initial position, which is attained from setting the position function at $t_0$. Since we have the second-order differential equation relating position, and acceleration - $\ddot{x}(t) = A(x(t))$ - we are able to utilze the basic Størmer-Verlet algorithm. This algorithm allows us to find a numerical solution for $x_n$ by setting the function of x at $t_n$ for $t_n = t_0 + n \Delta t$ with a discrete time step. 
