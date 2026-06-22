@@ -43,7 +43,10 @@ We then relate this to Newton's secoond law to solve for acceleration:
 <p align="center">
   $$a = \frac{-GM}{r^2} \hat {r}$$
 </p>
-Note that the smaller mass cancels out, indicating that the resulting gravitational acceleration is independent of its mass. This is consistent with the underlying concept of the larger mass always attracts the smaller mass.
+Note that the smaller mass cancels out, indicating that the resulting gravitational acceleration is independent of its mass. This is consistent with the underlying concept that the accerleration that the smaller mass experiences is exerted from the larger mass of the system. 
+
+Tailoring this to our project, and with our assumptions made (the only forces acting upon a given planet is the force of the Sun), this equation applies to each bpdy in the Solar System.
+
 
 ## The Verlet Algorithm
 
@@ -64,7 +67,9 @@ We derive this to obtain the velocity function:
 
 ## Kepler's Third Law and The Timescale 
 
-## Dependencies
+## Dependencies and Assumptions Made
+
+In this project I used 
 
 ## Closing Remarks
 
