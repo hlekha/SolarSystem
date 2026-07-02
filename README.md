@@ -65,6 +65,7 @@ We derive this to obtain the velocity function:
 </p>
 
 ## Kepler's Third Law and The Timescale 
+Kepler's Third Law states that the period 
 
 ## Dependencies and Assumptions Made
 
